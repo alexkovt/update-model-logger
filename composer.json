@@ -1,0 +1,21 @@
+{
+    "name": "alexkovt/update-model-logger",
+    "description": "This package writes message into the log when model has been updated",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexkovt",
+            "email": "582969@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^7.1.3",
+        "laravel/framework": "5.7.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Alexkovt\\UpdateModelLogger\\": "src/"
+        }
+    }
+}
